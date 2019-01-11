@@ -1,5 +1,8 @@
-# -*- mode: snippet; require-final-newline: nil -*-
+# -*- mode: snippet -*-
 # name: title
+# contributor : Rick Moynihan <rick@sourcesmouth.co.uk>
+# contributor: Rafael Villarroel (rvf0068@gmail.com)
+# condition: (= (current-column) 5)
 # key: title
 # --
-#+TITLE: $0
+#+title: ${1:title}
